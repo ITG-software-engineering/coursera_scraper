@@ -5,7 +5,7 @@ metadata:
 spec:
   schedule: "* * 7 * *"
   workflowSpec:
-    entrypoint: getcourses
+    entrypoint: get-courses-in-HTML
     templates:
     - name: get-courses-in-HTML
       inputs:
